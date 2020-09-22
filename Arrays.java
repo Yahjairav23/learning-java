@@ -22,6 +22,25 @@ public class Arrays {
         for(int i = 0; i<initNumArr.length; i++) {
             System.out.println(initNumArr[i]);
         }
+
+        // 
+
+        // multidimensional arrays; add brackets for however deep you want the dimensions of your array to be
+        int[][] multidimensionalArr = {{0,2,9}, {0,7}, {987, 102, 98, 9}};
+
+        System.out.println(multidimensionalArr[0][2]);
+
+        // multidimensional arrays can be created w/o initializing. the first array length must be given.
+        int[][] noInitMultiArr = new int[4][];
+
+        // we can loop through as we do in javascript
+        for(int x = 0; x < multidimensionalArr.length; x++){
+            for(int z = 0; z < multidimensionalArr[x].length; z++){
+                System.out.print(multidimensionalArr[x][z] + "\t");
+                // "\t" == tab
+            }
+            System.out.println();
+        }
     }
 
 }
