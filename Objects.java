@@ -32,3 +32,13 @@ public class Objects {
         obj.run();
     }
 }
+
+
+/*
+RETURN TYPES
+
+void = does not return anything
+int or any of the other objec variables.
+
+The methods can take in arguments just as they do in Javascript.
+*/
