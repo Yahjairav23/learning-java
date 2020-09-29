@@ -9,7 +9,7 @@ public class App {
         Car car1 = new Car();
         car1.design();
         car1.build();
-        car1.brand
+        car1.brand();
     }
 }
 
